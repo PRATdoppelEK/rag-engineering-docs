@@ -1,0 +1,33 @@
+# Local Vector Databases (FAISS/Chroma)
+# These are generated locally and should not be tracked
+index.faiss
+index.pkl
+chroma_db/
+*.index
+
+# Proprietary Engineering Documents
+# Your README states these contain confidential simulation parameters
+data/sample_docs/*
+!data/sample_docs/.gitkeep
+
+# Environment and Credentials
+.env
+venv/
+.venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Large Model Files (if downloaded locally outside of Ollama)
+*.bin
+*.gguf
