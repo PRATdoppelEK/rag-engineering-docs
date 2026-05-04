@@ -1,0 +1,15 @@
+chunking:
+  chunk_size: 512
+  chunk_overlap: 64
+
+embedding:
+  model: "all-MiniLM-L6-v2"
+
+llm:
+  provider: "ollama"
+  model: "mistral"
+  temperature: 0.1
+  max_tokens: 1024
+
+retrieval:
+  top_k: 5
