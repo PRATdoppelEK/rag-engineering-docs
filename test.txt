@@ -1,0 +1,5 @@
+Battery State of Health (SOH) refers to the ratio of current capacity to rated capacity.
+A battery reaches end of life when SOH drops below 0.8 or 80 percent of rated capacity.
+Thermal management in battery packs uses cooling plates and phase change materials.
+The recommended mesh density for HV battery simulation is 2mm for structural analysis.
+SOC estimation uses Kalman filters combined with equivalent circuit models.
